@@ -1,0 +1,41 @@
+POST http://bbs.uestc.edu.cn/mobcent/app/web/index.php?r=user/photolist HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 339
+Content-Type: application/x-www-form-urlencoded
+Host: bbs.uestc.edu.cn
+
+packageName=com.appbyme.app118563
+&forumType=7
+&pageSize=30
+&accessToken=3178779b80c3ab7b29916a42dcf66
+&appName=%E6%B8%85%E6%B0%B4%E6%B2%B3%E7%95%94
+&accessSecret=f155d9573cb5a8ae260fb6dd8c9d5
+&sdkVersion=2.4.0
+&imei=353347060569561
+&apphash=527c1aae
+&albumId=0
+&uid=101183
+&forumKey=CBQJazn9Wws8Ivhr6U
+&page=1
+&platType=1
+&imsi=460027829131959
+&sdkType=
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 08 Sep 2015 13:47:13 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.10-pl0-gentoo
+Set-Cookie: v3hW_2132_saltkey=vFSogMon; expires=Thu, 08-Oct-2015 13:47:13 GMT; Max-Age=2592000; path=/; httponly
+Set-Cookie: v3hW_2132_lastvisit=1441716433; expires=Thu, 08-Oct-2015 13:47:13 GMT; Max-Age=2592000; path=/
+Set-Cookie: v3hW_2132_sid=FOXOoc; expires=Wed, 09-Sep-2015 13:47:13 GMT; Max-Age=86400; path=/
+Set-Cookie: v3hW_2132_lastact=1441720033%09index.php%09; expires=Wed, 09-Sep-2015 13:47:13 GMT; Max-Age=86400; path=/
+Vary: Accept-Encoding
+Content-Length: 285
+
+{"rs":0,"errcode":"\u8be5\u76f8\u518c\u4e0b\u8fd8\u6ca1\u6709\u56fe\u7247","head":{"errCode":"02000004","errInfo":"\u8be5\u76f8\u518c\u4e0b\u8fd8\u6ca1\u6709\u56fe\u7247","version":"2.4.0.7","alert":1},"body":{"externInfo":{"padding":""}},"list":[],"page":1,"has_next":0,"total_num":0}
+
+{"rs":1,"errcode":"","head":{"errCode":"00000000","errInfo":"调用成功,没有任何错误","version":"2.4.0.8","alert":0},"body":{"externInfo":{"padding":""}},"list":[{"pic_id":46534,"title":"相册不能为空","user_id":101183,"release_date":"1445502303000","last_update_date":"000","user_nick_name":"只求更好","hot":0,"replies":0,"thumb_pic":"http:\/\/bbs.uestc.edu.cn\/data\/attachment\/album\/201510\/22\/162503zuzr8kmb8ww8riu5.jpg.thumb.jpg","origin_pic":"http:\/\/bbs.uestc.edu.cn\/data\/attachment\/album\/201510\/22\/162503zuzr8kmb8ww8riu5.jpg"}],"page":1,"has_next":0,"total_num":1}

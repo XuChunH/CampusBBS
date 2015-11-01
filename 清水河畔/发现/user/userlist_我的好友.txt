@@ -1,0 +1,23 @@
+POST http://bbs.uestc.edu.cn/mobcent/app/web/index.php?r=user/userlist HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 415
+Content-Type: application/x-www-form-urlencoded
+Host: bbs.uestc.edu.cn
+
+packageName=com.appbyme.app118563&forumType=7&longitude=103.93663787841797&pageSize=20&accessToken=3178779b80c3ab7b29916a42dcf66&appName=%E6%B8%85%E6%B0%B4%E6%B2%B3%E7%95%94&accessSecret=f155d9573cb5a8ae260fb6dd8c9d5&sdkVersion=2.4.0&imei=353347060569561&apphash=527c1aae&latitude=30.757829666137695&uid=101183&orderBy=dateline&forumKey=CBQJazn9Wws8Ivhr6U&type=friend&page=1&platType=1&imsi=460027829131959&sdkType=
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 08 Sep 2015 13:48:32 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.10-pl0-gentoo
+Set-Cookie: v3hW_2132_saltkey=S435z4b4; expires=Thu, 08-Oct-2015 13:48:32 GMT; Max-Age=2592000; path=/; httponly
+Set-Cookie: v3hW_2132_lastvisit=1441716512; expires=Thu, 08-Oct-2015 13:48:32 GMT; Max-Age=2592000; path=/
+Set-Cookie: v3hW_2132_sid=PlEGbX; expires=Wed, 09-Sep-2015 13:48:32 GMT; Max-Age=86400; path=/
+Set-Cookie: v3hW_2132_lastact=1441720112%09index.php%09; expires=Wed, 09-Sep-2015 13:48:32 GMT; Max-Age=86400; path=/
+Vary: Accept-Encoding
+Content-Length: 238
+
+{"rs":1,"errcode":"","head":{"errCode":"00000000","errInfo":"\u8c03\u7528\u6210\u529f,\u6ca1\u6709\u4efb\u4f55\u9519\u8bef","version":"2.4.0.7","alert":0},"body":{"externInfo":{"padding":""}},"list":[],"page":1,"has_next":0,"total_num":0}

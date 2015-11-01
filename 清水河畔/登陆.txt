@@ -1,0 +1,46 @@
+POST http://bbs.uestc.edu.cn/mobcent/app/web/index.php?r=user/login HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 300
+Content-Type: application/x-www-form-urlencoded
+Host: bbs.uestc.edu.cn
+
+appName=%E6%B8%85%E6%B0%B4%E6%B2%B3%E7%95%94
+&username=%25E5%258F%25AA%25E6%25B1%2582%25E6%259B%25B4%25E5%25A5%25BD
+&packageName=com.appbyme.app118563
+&apphash=e8f0fca9
+&forumType=7
+&imei=864323021547899
+&platType=1
+&forumKey=CBQJazn9Wws8Ivhr6U
+&imsi=
+&type=login
+&sdkType=
+&password=stdxch2014
+&sdkVersion=2.4.0
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 31 Aug 2015 04:33:10 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.10-pl0-gentoo
+Set-Cookie: v3hW_2132_saltkey=r09b0000; expires=Wed, 30-Sep-2015 04:33:10 GMT; Max-Age=2592000; path=/; httponly
+Set-Cookie: v3hW_2132_lastvisit=1440991990; expires=Wed, 30-Sep-2015 04:33:10 GMT; Max-Age=2592000; path=/
+Set-Cookie: v3hW_2132_sid=ZPtSLs; expires=Tue, 01-Sep-2015 04:33:10 GMT; Max-Age=86400; path=/
+Set-Cookie: v3hW_2132_lastact=1440995590%09index.php%09; expires=Tue, 01-Sep-2015 04:33:10 GMT; Max-Age=86400; path=/
+Set-Cookie: v3hW_2132_invite_auth=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+Set-Cookie: v3hW_2132_ulastactivity=193fFXMohrgxYS4IYIWmsaxEwUUJRvrk7%2ByrMFll4QEgshA%2FZMkL; expires=Tue, 30-Aug-2016 04:33:10 GMT; Max-Age=31536000; path=/
+Set-Cookie: v3hW_2132_sid=ZPtSLs; expires=Tue, 01-Sep-2015 04:33:10 GMT; Max-Age=86400; path=/
+Set-Cookie: v3hW_2132_ulastactivity=f559pqPod4DL%2Bknu5cJb%2F5byq29t5RFx8cIc37SXEbCRUAMoJaeu; expires=Tue, 30-Aug-2016 04:33:10 GMT; Max-Age=31536000; path=/
+Set-Cookie: v3hW_2132_auth=b78e%2B5u%2FhE93WsM3jbSfxYl6BwZOxGKb1KiosR9zyaJ2sdCajy8pi8j5mn3A1uk%2FwDuYtCzGI%2Bj9LgqaJm8JkhsbGxY; path=/; httponly
+Set-Cookie: v3hW_2132_loginuser=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+Set-Cookie: v3hW_2132_activationauth=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+Set-Cookie: v3hW_2132_pmnum=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/
+Set-Cookie: v3hW_2132_lastcheckfeed=101183%7C1440995590; expires=Tue, 30-Aug-2016 04:33:10 GMT; Max-Age=31536000; path=/
+Set-Cookie: v3hW_2132_checkfollow=1; expires=Mon, 31-Aug-2015 04:33:40 GMT; Max-Age=30; path=/
+Vary: Accept-Encoding
+Content-Length: 424
+
+{"rs":1,"errcode":"","head":{"errCode":"00000000","errInfo":"\u8c03\u7528\u6210\u529f,\u6ca1\u6709\u4efb\u4f55\u9519\u8bef","version":"2.4.0.7","alert":0},"body":{"externInfo":{"padding":""}},"isValidation":0,"token":"3178779b80c3ab7b29916a42dcf66","secret":"bb0b920dacef2cd8b22fdc2ea7b90","uid":101183,"avatar":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=101183&size=middle","userName":"\u53ea\u6c42\u66f4\u597d"}

@@ -1,0 +1,18 @@
+GET http://bbs.uestc.edu.cn/uc_server/avatar.php?uid=102810&size=middle HTTP/1.1
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1; XT1085 Build/LPE23.32-53)
+Host: bbs.uestc.edu.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 08 Sep 2015 13:12:49 GMT
+Content-Type: text/html
+Connection: keep-alive
+X-Powered-By: PHP/5.5.10-pl0-gentoo
+Last-Modified: Tue, 08 Sep 2015 13:12:49 +0000
+Expires: Wed, 09 Sep 2015 13:12:49 +0000
+Location: http://bbs.uestc.edu.cn/uc_server/./data/avatar/000/10/28/10_avatar_middle.jpg
+Content-Length: 0
+

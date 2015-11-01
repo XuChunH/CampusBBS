@@ -1,0 +1,44 @@
+POST http://bbs.uestc.edu.cn/mobcent/app/web/index.php?r=forum/topiclist HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 446
+Content-Type: application/x-www-form-urlencoded
+Host: bbs.uestc.edu.cn
+
+filterType=
+&packageName=com.appbyme.app118563
+&forumType=7
+&longitude=103.93663787841797
+&filterId=0
+&pageSize=20
+&accessToken=3178779b80c3ab7b29916a42dcf66
+&sortby=top
+&appName=%E6%B8%85%E6%B0%B4%E6%B2%B3%E7%95%94
+&isImageList=0
+&accessSecret=f155d9573cb5a8ae260fb6dd8c9d5
+&sdkVersion=2.4.0
+&imei=353347060569561
+&apphash=527c1aae
+&latitude=30.757829666137695
+&topOrder=0
+&boardId=316
+&forumKey=CBQJazn9Wws8Ivhr6U&page=1
+&platType=1
+&imsi=460027829131959
+&sdkType=
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 08 Sep 2015 13:19:38 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.10-pl0-gentoo
+Set-Cookie: v3hW_2132_saltkey=LUYBz12D; expires=Thu, 08-Oct-2015 13:19:38 GMT; Max-Age=2592000; path=/; httponly
+Set-Cookie: v3hW_2132_lastvisit=1441714778; expires=Thu, 08-Oct-2015 13:19:38 GMT; Max-Age=2592000; path=/
+Set-Cookie: v3hW_2132_sid=hM778F; expires=Wed, 09-Sep-2015 13:19:38 GMT; Max-Age=86400; path=/
+Set-Cookie: v3hW_2132_lastact=1441718378%09index.php%09; expires=Wed, 09-Sep-2015 13:19:38 GMT; Max-Age=86400; path=/
+Vary: Accept-Encoding
+Content-Length: 6320
+
+{"rs":1,"errcode":"","head":{"errCode":"00000000","errInfo":"\u8c03\u7528\u6210\u529f,\u6ca1\u6709\u4efb\u4f55\u9519\u8bef","version":"2.4.0.7","alert":0},"body":{"externInfo":{"padding":""}},"newTopicPanel":[{"type":"normal","action":"","title":"\u53d1\u8868\u5e16\u5b50"},{"type":"vote","action":"","title":"\u53d1\u8d77\u6295\u7968"}],"classificationTop_list":[],"classificationType_list":[{"classificationType_id":940,"classificationType_name":"\u751f\u7269\u5b66"},{"classificationType_id":941,"classificationType_name":"\u5316\u5b66"},{"classificationType_id":942,"classificationType_name":"\u5929\u6587\u5b66"},{"classificationType_id":943,"classificationType_name":"\u5730\u7403\u79d1\u5b66"},{"classificationType_id":944,"classificationType_name":"\u5fc3\u7406\u5b66"},{"classificationType_id":945,"classificationType_name":"\u5176\u4ed6"}],"isOnlyTopicType":1,"anno_list":[{"announce_id":"19","author":"\ufe4f\ufe4f\ufe4f\ufe4f","board_id":0,"forum_id":0,"start_date":"1440498600000","title":"\u261b \u6e05\u6c34\u6cb3\u7554\u6ce8\u518c\u6307\u5357","redirect":"http:\/\/bbs.uestc.edu.cn\/forum.php?mod=viewthread&tid=1551370"},{"announce_id":"18","author":"\ufe4f\ufe4f\ufe4f\ufe4f","board_id":0,"forum_id":0,"start_date":"1439207400000","title":"\u263a\u3000\u3000\u27a4\u3000\u27a4\u3000\u27a4\u3000\u27a4\u3000\u27a4\u3000\u27a4\u3000\u6e05\u6c34\u6cb3\u7554\u6b22\u8fce 2015 \u7ea7\u65b0\u751f\uff01","redirect":""}],"forumInfo":{"id":316,"title":"\u81ea\u7136\u79d1\u5b66","description":"","icon":""},"topTopicList":[],"list":[{"board_id":25,"board_name":"\u6c34\u624b\u4e4b\u5bb6","topic_id":1554508,"type":"normal","title":"\u5173\u4e8e\u6cb3\u7554\u6700\u8fd1\u51e0\u8d77\u4e8b\u6545\u7684\u8bf4\u660e","user_id":160456,"user_nick_name":"\u897f\u98ce\u5fae\u96e8","last_reply_date":"1441723140000","vote":0,"hot":0,"hits":1315,"replies":73,"essence":1,"top":1,"status":32,"subject":"\u9996\u5148\u8bda\u631a\u7684\u5411\u6240\u6709\u8bba\u575b\u6210\u5458\u9053\u6b49\uff01~~~    \u8fd1\u6765\u6709\u540c\u5b66\u8868\u793a\u6cb3\u7554\u5929\u5929\u6302\uff0c\u5728\u6b64\u6211\u5bf9\u6700","pic_path":"","ratio":"1","userAvatar":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=160456&size=middle","gender":1,"recommendAdd":0,"isHasRecommendAdd":0,"imageList":[],"sourceWebUrl":"http:\/\/bbs.uestc.edu.cn\/forum.php?mod=viewthread&tid=1554508"},{"board_id":25,"board_name":"\u6c34\u624b\u4e4b\u5bb6","topic_id":1554165,"type":"normal","title":"\u661f\u8fb0\u5de5\u4f5c\u5ba42015\u5e74\u62db\u65b0\u8d34","user_id":178888,"user_nick_name":"Evilkjoker","last_reply_date":"1442155320000","vote":0,"hot":0,"hits":866,"replies":27,"essence":0,"top":1,"status":32,"subject":"\u7ea6\uff5e\u7ea6\uff5e\u7ea6\uff5e\uff01    \u5148\u6765\u6bb5\u6b63\u6587\uff1a    \u661f\u8fb0\u5de5\u4f5c\u5ba4\u6210\u7acb\u4e8e1998\u5e74\uff0c\u4e3b\u8981\u8fd0\u7ef4\u6e05","pic_path":"","ratio":"1","userAvatar":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=178888&size=middle","gender":1,"recommendAdd":0,"isHasRecommendAdd":0,"imageList":[],"sourceWebUrl":"http:\/\/bbs.uestc.edu.cn\/forum.php?mod=viewthread&tid=1554165"},{"board_id":46,"board_name":"\u7ad9\u52a1\u7efc\u5408","topic_id":1480531,"type":"normal","title":"\u9996\u9875\u70b9\u8d5e\u8bdd\u8bed\u5f81\u96c6","user_id":52871,"user_nick_name":"lemanyuan","last_reply_date":"1441688264000","vote":0,"hot":0,"hits":8298,"replies":87,"essence":1,"top":1,"status":32,"subject":"\u53ef\u4ee5\u662f\u6b4c\u8bcd\u3001\u53f0\u8bcd\u3001\u683c\u8a00\u3001\u5c0f\u6bb5\u5b50\uff0c\u8981\u6c42\u5185\u5bb9\u6b63\u80fd\u91cf\uff0c\u5b57\u6570\u572820\u5b57\u4ee5\u5185\u3002  \u4e00\u7ecf\u91c7\u7528\u6709","pic_path":"","ratio":"1","userAvatar":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=52871&size=middle","gender":0,"recommendAdd":0,"isHasRecommendAdd":0,"imageList":[],"sourceWebUrl":"http:\/\/bbs.uestc.edu.cn\/forum.php?mod=viewthread&tid=1480531"},{"board_id":46,"board_name":"\u7ad9\u52a1\u7efc\u5408","topic_id":1467302,"type":"normal","title":"\u6e05\u6c34\u6cb3\u7554\u610f\u89c1\u5f81\u96c6","user_id":52871,"user_nick_name":"lemanyuan","last_reply_date":"1435322458000","vote":0,"hot":0,"hits":8083,"replies":60,"essence":1,"top":1,"status":32,"subject":"\u6e05\u6c34\u6cb3\u7554\u5c06\u4e8e\u8fd1\u671f\u8fdb\u884c\u8f83\u5927\u89c4\u6a21\u8c03\u6574\uff0c\u4e3a\u65b9\u4fbf\u7edf\u4e00\u8fdb\u884c\u8c03\u6574\uff0c\u73b0\u5bf9\u4f1a\u5458\u53d1\u5e03\u610f\u89c1\u5f81\u96c6\u5e16\uff0c\u6b22","pic_path":"","ratio":"1","userAvatar":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=52871&size=middle","gender":0,"recommendAdd":0,"isHasRecommendAdd":0,"imageList":[],"sourceWebUrl":"http:\/\/bbs.uestc.edu.cn\/forum.php?mod=viewthread&tid=1467302"},{"board_id":326,"board_name":"\u65b0\u751f\u4e13\u533a","topic_id":1456557,"type":"normal","title":"\u6e05\u6c34\u6cb3\u7554\u8bba\u575b\u65b0\u624b\u5bfc\u822a V2.0","user_id":52871,"user_nick_name":"lemanyuan","last_reply_date":"1441671338000","vote":0,"hot":0,"hits":113674,"replies":750,"essence":1,"top":1,"status":512,"subject":"\u6e05\u6c34\u6cb3\u7554\u8bba\u575b\u65b0\u624b\u5bfc\u822a         \u201c\u6e05\u6c34\u6cb3\u7554\u201d\u662f\u7535\u5b50\u79d1\u6280\u5927\u5b66\u5b98\u65b9\u8bba\u575b\uff0c\u7531\u7535\u5b50","pic_path":"","ratio":"1","userAvatar":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=52871&size=middle","gender":0,"recommendAdd":0,"isHasRecommendAdd":0,"imageList":[],"sourceWebUrl":"http:\/\/bbs.uestc.edu.cn\/forum.php?mod=viewthread&tid=1456557"},{"board_id":326,"board_name":"\u65b0\u751f\u4e13\u533a","topic_id":752718,"type":"normal","title":"\u6e05\u6c34\u6cb3\u7554\u8bba\u575b\u603b\u7248\u89c4Ver 2.0","user_id":46064,"user_nick_name":"\u62d2\u7edd\u8005","last_reply_date":"1290945667000","vote":0,"hot":0,"hits":32109,"replies":0,"essence":0,"top":1,"status":0,"subject":"\u6e05\u6c34\u6cb3\u7554\u8bba\u575b\u603b\u7248\u89c4       \u4e00\u3001\u603b\u5219   \u7b2c\u4e00\u6761 \u6e05\u6c34\u6cb3\u7554\u4e8e2007\u5e7411\u6708","pic_path":"","ratio":"1","userAvatar":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=46064&size=middle","gender":0,"recommendAdd":0,"isHasRecommendAdd":0,"imageList":[],"sourceWebUrl":"http:\/\/bbs.uestc.edu.cn\/forum.php?mod=viewthread&tid=752718"}],"page":1,"has_next":0,"total_num":6}

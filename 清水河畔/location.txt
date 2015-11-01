@@ -1,0 +1,28 @@
+POST http://bbs.uestc.edu.cn/mobcent/app/web/index.php?r=user/location HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 587
+Content-Type: application/x-www-form-urlencoded
+Host: bbs.uestc.edu.cn
+
+socket_timeout=2000&packageName=com.appbyme.app118563&connection_timeout=1000&forumType=7&userId=101183&longitude=103.936613&accessToken=3178779b80c3ab7b29916a42dcf66&appName=%E6%B8%85%E6%B0%B4%E6%B2%B3%E7%95%94&accessSecret=f155d9573cb5a8ae260fb6dd8c9d5&sdkVersion=2.4.0&imei=353347060569561&location=%25E5%259B%259B%25E5%25B7%259D%25E7%259C%2581%25E6%2588%2590%25E9%2583%25BD%25E5%25B8%2582%25E9%2583%25AB%25E5%258E%25BF%25E9%2593%25B6%25E6%259D%258F%25E5%25A4%25A7%25E9%2581%2593&apphash=527c1aae&latitude=30.757867&forumKey=CBQJazn9Wws8Ivhr6U&platType=1&imsi=460027829131959&sdkType=
+
+
+注：  location的值为： 四川省成都市郫县银杏大道
+
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 08 Sep 2015 13:11:02 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.10-pl0-gentoo
+Set-Cookie: v3hW_2132_saltkey=p8b287i5; expires=Thu, 08-Oct-2015 13:11:02 GMT; Max-Age=2592000; path=/; httponly
+Set-Cookie: v3hW_2132_lastvisit=1441714262; expires=Thu, 08-Oct-2015 13:11:02 GMT; Max-Age=2592000; path=/
+Set-Cookie: v3hW_2132_sid=Zqiwvl; expires=Wed, 09-Sep-2015 13:11:02 GMT; Max-Age=86400; path=/
+Set-Cookie: v3hW_2132_lastact=1441717862%09index.php%09; expires=Wed, 09-Sep-2015 13:11:02 GMT; Max-Age=86400; path=/
+Vary: Accept-Encoding
+Content-Length: 192
+
+{"rs":1,"errcode":"","head":{"errCode":"00000000","errInfo":"\u8c03\u7528\u6210\u529f,\u6ca1\u6709\u4efb\u4f55\u9519\u8bef","version":"2.4.0.7","alert":0},"body":{"externInfo":{"padding":""}}}

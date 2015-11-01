@@ -1,0 +1,23 @@
+POST http://bbs.uestc.edu.cn/mobcent/app/web/index.php?r=message/notifylist HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 328
+Content-Type: application/x-www-form-urlencoded
+Host: bbs.uestc.edu.cn
+
+packageName=com.appbyme.app118563&forumType=7&pageSize=10&accessToken=3178779b80c3ab7b29916a42dcf66&appName=%E6%B8%85%E6%B0%B4%E6%B2%B3%E7%95%94&accessSecret=f155d9573cb5a8ae260fb6dd8c9d5&sdkVersion=2.4.0&imei=353347060569561&apphash=527c1aae&forumKey=CBQJazn9Wws8Ivhr6U&type=post&page=1&platType=1&imsi=460027829131959&sdkType=
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 08 Sep 2015 13:41:16 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.10-pl0-gentoo
+Set-Cookie: v3hW_2132_saltkey=JtsfkDyO; expires=Thu, 08-Oct-2015 13:41:16 GMT; Max-Age=2592000; path=/; httponly
+Set-Cookie: v3hW_2132_lastvisit=1441716076; expires=Thu, 08-Oct-2015 13:41:16 GMT; Max-Age=2592000; path=/
+Set-Cookie: v3hW_2132_sid=FBiGX1; expires=Wed, 09-Sep-2015 13:41:16 GMT; Max-Age=86400; path=/
+Set-Cookie: v3hW_2132_lastact=1441719676%09index.php%09; expires=Wed, 09-Sep-2015 13:41:16 GMT; Max-Age=86400; path=/
+Vary: Accept-Encoding
+Content-Length: 2057
+
+{"rs":1,"errcode":"","head":{"errCode":"00000000","errInfo":"\u8c03\u7528\u6210\u529f,\u6ca1\u6709\u4efb\u4f55\u9519\u8bef","version":"2.4.0.7","alert":0},"body":{"externInfo":{"padding":""},"data":[{"dateline":"1440637986000","type":"post","note":"qq751117723 \u56de\u590d\u4e86\u60a8\u7684\u5e16\u5b50 eclipse\u548candroid studio\u5927\u5bb6\u90fd\u7528\u54ea\u4e2a\uff1f   \u67e5\u770b","fromId":16777215,"fromIdType":"quote","author":"qq751117723","authorId":55869,"authorAvatar":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=55869&size=middle","actions":[]},{"dateline":"1440606994000","type":"post","note":"\u56de\u65cb \u56de\u590d\u4e86\u60a8\u7684\u5e16\u5b50 eclipse\u548candroid studio\u5927\u5bb6\u90fd\u7528\u54ea\u4e2a\uff1f   \u67e5\u770b","fromId":16777215,"fromIdType":"quote","author":"\u56de\u65cb","authorId":114876,"authorAvatar":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=114876&size=middle","actions":[]}]},"page":1,"has_next":0,"total_num":2,"list":[{"board_name":"\u7a0b\u5e8f\u5458","board_id":70,"topic_id":1551688,"topic_subject":"eclipse\u548candroid studio\u5927\u5bb6\u90fd\u7528\u54ea\u4e2a\uff1f","topic_content":"mac\u4e0a\u5feb\u7684\u591a","topic_url":"","reply_content":"\u4e0d\u662fMAC\u4e0a\u5feb\u5f97\u591a\uff0c\u662fSSD\u4e0a\u5feb\u5f97\u591a                                      \r\n","reply_url":"","reply_remind_id":27532263,"reply_nick_name":"qq751117723","user_id":55869,"icon":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=55869&size=middle","is_read":1,"replied_date":"1440637986000"},{"board_name":"\u7a0b\u5e8f\u5458","board_id":70,"topic_id":1551688,"topic_subject":"eclipse\u548candroid studio\u5927\u5bb6\u90fd\u7528\u54ea\u4e2a\uff1f","topic_content":"mac\u4e0a\u5feb\u7684\u591a","topic_url":"","reply_content":"\u53ef\u60dc\u5e76\u4e70\u4e0d\u8d77\r\n","reply_url":"","reply_remind_id":27532063,"reply_nick_name":"\u56de\u65cb","user_id":114876,"icon":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=114876&size=middle","is_read":1,"replied_date":"1440606994000"}]}

@@ -1,0 +1,36 @@
+POST http://bbs.uestc.edu.cn/mobcent/app/web/index.php?r=user/userinfo HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 313
+Content-Type: application/x-www-form-urlencoded
+Host: bbs.uestc.edu.cn
+
+packageName=com.appbyme.app118563
+&accessSecret=f155d9573cb5a8ae260fb6dd8c9d5
+&sdkVersion=2.4.0
+&imei=353347060569561
+&forumType=7
+&userId=101183
+&apphash=527c1aae
+&accessToken=3178779b80c3ab7b29916a42dcf66
+&appName=%E6%B8%85%E6%B0%B4%E6%B2%B3%E7%95%94
+&forumKey=CBQJazn9Wws8Ivhr6U
+&platType=1
+&imsi=460027829131959
+&sdkType=
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 08 Sep 2015 13:44:56 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.10-pl0-gentoo
+Set-Cookie: v3hW_2132_saltkey=xIqRQ7wQ; expires=Thu, 08-Oct-2015 13:44:56 GMT; Max-Age=2592000; path=/; httponly
+Set-Cookie: v3hW_2132_lastvisit=1441716296; expires=Thu, 08-Oct-2015 13:44:56 GMT; Max-Age=2592000; path=/
+Set-Cookie: v3hW_2132_sid=QwwWtt; expires=Wed, 09-Sep-2015 13:44:56 GMT; Max-Age=86400; path=/
+Set-Cookie: v3hW_2132_lastact=1441719896%09index.php%09; expires=Wed, 09-Sep-2015 13:44:56 GMT; Max-Age=86400; path=/
+Vary: Accept-Encoding
+Content-Length: 2235
+
+{"rs":1,"errcode":"","head":{"errCode":"00000000","errInfo":"\u8c03\u7528\u6210\u529f,\u6ca1\u6709\u4efb\u4f55\u9519\u8bef","version":"2.4.0.7","alert":0},"body":{"externInfo":{"padding":""},"repeatList":[],"profileList":[{"type":"realname","title":"\u771f\u5b9e\u59d3\u540d","data":""},{"type":"gender","title":"\u6027\u522b","data":"\u7537"},{"type":"birthday","title":"\u751f\u65e5","data":"1992 \u5e74 3 \u6708 17 \u65e5"},{"type":"birthprovince","title":"\u51fa\u751f\u7701\u4efd","data":""},{"type":"birthcity","title":"\u51fa\u751f\u5730","data":""},{"type":"birthdist","title":"\u51fa\u751f\u53bf","data":""},{"type":"birthcommunity","title":"\u51fa\u751f\u5c0f\u533a","data":""},{"type":"resideprovince","title":"\u5c45\u4f4f\u7701\u4efd","data":""},{"type":"residecity","title":"\u5c45\u4f4f\u5730","data":" \u901a\u4fe1"},{"type":"residedist","title":"\u5c45\u4f4f\u53bf","data":""},{"type":"residecommunity","title":"\u5c45\u4f4f\u5c0f\u533a","data":""},{"type":"graduateschool","title":"\u6bd5\u4e1a\u5b66\u6821","data":""},{"type":"education","title":"\u5b66\u5386","data":""},{"type":"company","title":"\u516c\u53f8","data":""},{"type":"occupation","title":"\u804c\u4e1a","data":""},{"type":"position","title":"\u804c\u4f4d","data":""},{"type":"lookingfor","title":"\u4ea4\u53cb\u76ee\u7684","data":""},{"type":"site","title":"\u4e2a\u4eba\u4e3b\u9875","data":""},{"type":"interest","title":"\u5174\u8da3\u7231\u597d","data":""}],"creditList":[{"type":"credits","title":"\u79ef\u5206","data":106},{"type":"extcredits1","title":"\u5a01\u671b","data":0},{"type":"extcredits2","title":"\u6c34\u6ef4","data":300},{"type":"extcredits6","title":"\u5956\u52b1\u5238","data":0}],"creditShowList":[{"type":"credits","title":"\u79ef\u5206","data":106},{"type":"extcredits2","title":"\u6c34\u6ef4","data":300}]},"flag":1,"is_black":0,"is_follow":0,"isFriend":0,"icon":"http:\/\/bbs.uestc.edu.cn\/uc_server\/avatar.php?uid=101183&size=middle","level_url":"","name":"\u53ea\u6c42\u66f4\u597d","email":"1434314124@qq.com","status":2,"gender":1,"score":106,"credits":106,"gold_num":300,"topic_num":4,"photo_num":0,"reply_posts_num":19,"essence_num":0,"friend_num":0,"follow_num":0,"level":0,"userTitle":"\u6cb3\u87f9 (Lv.3)","info":[]}

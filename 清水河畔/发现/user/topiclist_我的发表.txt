@@ -1,0 +1,41 @@
+POST http://bbs.uestc.edu.cn/mobcent/app/web/index.php?r=user/topiclist HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.72 Safari/537.36
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 397
+Content-Type: application/x-www-form-urlencoded
+Host: bbs.uestc.edu.cn
+
+packageName=com.appbyme.app118563
+&forumType=7
+&longitude=103.93650817871094
+&pageSize=20
+&accessToken=3178779b80c3ab7b29916a42dcf66
+&appName=%E6%B8%85%E6%B0%B4%E6%B2%B3%E7%95%94
+&accessSecret=f155d9573cb5a8ae260fb6dd8c9d5
+&sdkVersion=2.4.0
+&imei=353347060569561
+&apphash=527c1aae
+&latitude=30.757917404174805
+&uid=101183
+&forumKey=CBQJazn9Wws8Ivhr6U
+&type=topic
+&page=1
+&platType=1
+&imsi=460027829131959
+&sdkType=
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 08 Sep 2015 13:51:22 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-Powered-By: PHP/5.5.10-pl0-gentoo
+Set-Cookie: v3hW_2132_saltkey=bw6owbBZ; expires=Thu, 08-Oct-2015 13:51:22 GMT; Max-Age=2592000; path=/; httponly
+Set-Cookie: v3hW_2132_lastvisit=1441716682; expires=Thu, 08-Oct-2015 13:51:22 GMT; Max-Age=2592000; path=/
+Set-Cookie: v3hW_2132_sid=p2xg2x; expires=Wed, 09-Sep-2015 13:51:22 GMT; Max-Age=86400; path=/
+Set-Cookie: v3hW_2132_lastact=1441720282%09index.php%09; expires=Wed, 09-Sep-2015 13:51:22 GMT; Max-Age=86400; path=/
+Vary: Accept-Encoding
+Content-Length: 2527
+
+{"rs":1,"errcode":"","head":{"errCode":"00000000","errInfo":"\u8c03\u7528\u6210\u529f,\u6ca1\u6709\u4efb\u4f55\u9519\u8bef","version":"2.4.0.7","alert":0},"body":{"externInfo":{"padding":""}},"list":[{"board_id":199,"board_name":"\u4fdd\u7814\u8003\u7814","topic_id":1351639,"type_id":216,"sort_id":0,"title":"[\u4fe1\u606f\u53d1\u5e03]\u6d59\u6c5f\u5927\u5b66\u91d1\u4ef2\u548c\u6559\u6388\u62db\u6536\u7855\u58eb\u548c\u535a\u58eb\u7814\u7a76\u751f\uff08\u542b\u4fdd\u9001\u7855\u58eb\u548c\u76f4\u535a\u751f\uff09","subject":"\u6d59\u6c5f\u5927\u5b66\u91d1\u4ef2\u548c\u6559\u6388\u62db\u6536\u7855\u58eb\u548c\u535a\u58eb  \uff08\u542b\u4fdd\u9001\u7855\u58eb\u548c\u76f4\u535a\u751f\uff09      ","user_id":101183,"last_reply_date":"1374719522000","user_nick_name":"\u53ea\u6c42\u66f4\u597d","hits":209,"replies":5,"top":0,"status":0,"essence":0,"hot":0,"pic_path":""},{"board_id":61,"board_name":"\u4e8c\u624b\u4e13\u533a","topic_id":1298812,"type_id":288,"sort_id":0,"title":"[\u6e05\u6c34-\u62fc\u5355]\u6c42\u7fbd\u6bdb\u7403\u62cd\u5957\uff01\uff01","subject":"\u5982\u9898\uff0c\u62cd\u5b50\u591a\uff0c\u62cd\u5957\u5c11\uff0c\u5305\u4e70\u4e0d\u8d77\uff0c\u6c42\u597d\u5fc3\u4eba\u554a\uff0c\u5356\u548c\u9001\u90fd\u63a5\u53d7\uff0c\u6709\u610f\u8005\u7ad9\u5185\u554a","user_id":101183,"last_reply_date":"1366188958000","user_nick_name":"\u53ea\u6c42\u66f4\u597d","hits":33,"replies":0,"top":0,"status":0,"essence":0,"hot":0,"pic_path":""},{"board_id":20,"board_name":"\u5b66\u672f\u4ea4\u6d41","topic_id":1288511,"type_id":182,"sort_id":0,"title":"[\u8ba8\u8bba\u4ea4\u6d41]\u6c42\u6297\u5e72\u6270\u76f4\u535a\u8be6\u60c5\u554a\uff01\uff01\uff01\uff01\uff01","subject":"\u5982\u9898\uff0c\u672c\u4eba\u60f3\u76f4\u535a\u53bb\u6297\u5e72\u6270\uff0c\u6c42\u6709\u7ecf\u9a8c\u7684\u5b66\u957f\u5b66\u59d0\u4ee5\u53ca\u77e5\u60c5\u7684\u540c\u5b66\u4ecb\u7ecd\u8be6\u60c5\u554a\uff01\uff01 &#1","user_id":101183,"last_reply_date":"1364517584000","user_nick_name":"\u53ea\u6c42\u66f4\u597d","hits":279,"replies":7,"top":0,"status":0,"essence":0,"hot":0,"pic_path":""},{"board_id":225,"board_name":"\u51fa\u884c\u6709\u9053","topic_id":1044754,"type_id":17,"sort_id":0,"title":"[\u62fc\u8f66-\u6c99\u6cb3]12\u53f7K1158\uff0c\u6c42\u540c\u8def\u554a","subject":"12\u53f7K1158\uff0c\u6c42\u540c\u8def\u554a","user_id":101183,"last_reply_date":"1325410657000","user_nick_name":"\u53ea\u6c42\u66f4\u597d","hits":129,"replies":12,"top":0,"status":0,"essence":0,"hot":0,"pic_path":""}],"page":1,"has_next":0,"total_num":4}
